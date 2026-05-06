@@ -32,4 +32,15 @@ inline long double get_standard_deviation(const std::vector<long double>& data)
     return std::sqrtl(sum_sq / static_cast<long double>(data.size()));
 }
 
+inline long double get_arithmetic_mean(const std::vector<long double>& data)
+{
+    if (data.empty()) 
+    {
+        return 0.0L;
+    }
+
+    long double sum = std::accumulate(data.begin(), data.end(), 0.0L);
+    return sum / static_cast<long double>(data.size());
+}
+
 #endif
