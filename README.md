@@ -1,2 +1,2 @@
 # Oxygen
-Oxygen: A high-performance programming language. Built with a zero-overhead philosophy, it provides precise geometric calculations (triangles to dodecagons), rational types, and advanced math modules. Designed to be lightweight and transpile-ready, Oxygen bridges modern syntax with raw C++ power.
+Oxygen: A modular programming language ecosystem built on C++ with a 3-tier hierarchy. Features a structured import system: Executive (STD), Blue-Collar (Domain-specific like MATH/PHYSICS), and White-Collar (Sub-modules like SECTOR). Designed for high-precision transpilation and zero-overhead performance. 700+ commits of pure evolution.
