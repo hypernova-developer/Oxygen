@@ -5,5 +5,6 @@
 
 // Modules Type: II
 #include "STD/MATH.hpp"
+#include "STD/SHELL.hpp"
 
 #endif
